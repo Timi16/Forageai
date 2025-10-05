@@ -83,7 +83,7 @@ export default function HomePage() {
     { value: "156M", label: "Downloads", icon: Download },
   ];
 
-  const codeExample = `from dehug import DeHugRepository
+  const codeExample = `from ForgeAI import DeHugRepository
 
 # Load model from decentralized storage
 model = DeHugRepository.load_model("microsoft/DialoGPT-medium")
@@ -137,7 +137,7 @@ nft_id = DeHugRepository.upload_model(
               </Badge>
 
               <h1 className="text-6xl md:text-8xl font-light tracking-tight mb-8 leading-none">
-                <span className="text-white font-extralight">DeHug</span>
+                <span className="text-white font-extralight">ForgeAI</span>
                 <br />
                 <span className="text-slate-400 font-thin text-4xl md:text-5xl">
                   Decentralized ML Hub
@@ -208,7 +208,7 @@ nft_id = DeHugRepository.upload_model(
           <div className="text-center mb-24">
             <h2 className="text-5xl md:text-6xl font-light mb-8 text-white">
               Why Choose
-              <span className="block text-slate-400 font-thin">DeHug?</span>
+              <span className="block text-slate-400 font-thin">ForgeAI?</span>
             </h2>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto font-light leading-relaxed">
               The first decentralized ML platform with built-in monetization
