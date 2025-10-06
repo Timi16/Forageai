@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "ForgeAI - The Decentralized Hugging Face",
   description:
-    "A decentralized, open platform for hosting, sharing, and accessing machine learning models and datasets. Built on Filecoin/IPFS for permanent, censorship-resistant storage.",
+    "A decentralized, open platform for hosting, sharing, and accessing machine learning models and datasets.",
   keywords:
     "machine learning, AI models, datasets, decentralized, IPFS, Filecoin, Hugging Face, open source, ML",
 };
